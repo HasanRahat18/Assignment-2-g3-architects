@@ -63,3 +63,34 @@ nav li{
     width :75% ;
     padding-bottom: 30px;
 }
+
+  /* Features Style */
+  
+  .features{
+    margin: 150px 150px;
+    display: flex;
+    gap: 50px;
+  }
+  .features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 15px;
+    
+  }
+  .features-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .features-description{
+    color: #727272;
+    padding-bottom: 32px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .features-items{
+    padding-top: 245px;
+  }
