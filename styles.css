@@ -158,6 +158,9 @@ nav li{
         font-size: 16px;
         line-height: 26px;
   }
+  .love-img img{
+    width: 135vh;
+  }
 
   /* ......... Some Fact  Styles...........*/
 
@@ -266,3 +269,90 @@ nav li{
     text-decoration: none;
    
    }
+
+   /* .......... responsive section ............  */
+/* ...........small device ...........  */
+   @media screen and (max-width:576px){
+    nav{
+            gap: 20px;
+            flex-direction:column;
+            padding:10px 20px;
+   }
+   nav ul{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding-left: 0px;
+
+  }
+  .banner img{
+    width: 300px;
+}
+.features{
+  flex-direction: column;
+}
+.features-container{
+  grid-template-columns: repeat(1, 1fr);
+}
+.features{
+  padding: 20px;
+  margin: 20px;
+}
+
+.love-content{
+  padding: 10px 20px;
+  flex-direction: column;
+}
+
+.love-img img{
+  margin: -62px;
+width: 300px;
+}
+.love-ex{
+  grid-template-columns: repeat(1, 1fr);
+}
+.btn-experiance{
+  left: 36px;
+  top: 5705px;
+  width: 200px;
+}
+.achievement-container{
+  flex-direction: column;
+  margin: 15px;
+}
+.sponsores-container{
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+  
+}
+.footer{
+  margin: 0;
+}
+}
+/* ....... medium device ........  */
+
+@media screen and (min-width:577px) and (max-width:992px){
+  nav ul{
+    flex-direction: column;
+    gap: 20px;
+    align-items:self-end ;
+    padding-left: 10px;
+}
+.features{
+            gap: 10px;
+            padding: 100px;
+}
+.features-container{
+  grid-template-columns: repeat(2, 1fr);
+}
+.features{
+  flex-direction: column;
+}
+
+}
+
+
+.hide{
+  display: none;
+}
