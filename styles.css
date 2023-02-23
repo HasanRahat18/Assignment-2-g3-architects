@@ -77,11 +77,19 @@ nav li{
     gap: 15px;
     
   }
-  .features-title{
+  .features-title1{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
+    
+  }
+  .features-title2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 20px;
   }
   .features-description{
     color: #727272;
@@ -93,4 +101,78 @@ nav li{
   }
   .features-items{
     padding-top: 245px;
+  }
+
+  /* ....features love */
+
+  .love-content{
+    margin: 150px 120px;
+    display: flex;
+    gap: 70px;
+}
+
+  .btn-experiance{
+    height: 200px;
+    width: 342px;
+  }
+  .love-img{
+    /* position: relative; */
+  }
+  .btn-experiance{
+    font-weight: 600;
+    font-size: 35px;
+    border-radius: 8px;
+    position: absolute;
+    width: 284px;
+    height: 148px;
+    left: 688px;
+    top: 2625px;
+    color: white;
+    background: orange;
+    border: 1px solid orange;
+
+  }
+ 
+  .love-title{
+    font-size: 35px;
+    border-left: 5px solid orange;
+    font-weight: 600;
+  }
+  
+  .love-items{
+    
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  }
+  .love-ex{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .title{
+    padding-top: 20px;
+  }
+  .description{
+    padding-top: 12px;
+    color: #727272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  /* ......... Some Fact  Styles...........*/
+
+  .fact{
+    margin-bottom: 100px;
+    margin-left: 135px;
+  }
+  .fact-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    color: #131313;
+
   }
